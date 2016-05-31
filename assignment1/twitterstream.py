@@ -58,6 +58,7 @@ def fetchsamples():
   url = "https://stream.twitter.com/1.1/statuses/sample.json?language=en" # get statuses on english
   # to search for the term "microsoft", you can pass the following url to the twitterreq function:https://api.twitter.com/1.1/search/tweets.json?q=microsoft
   #url = "https://api.twitter.com/1.1/search/tweets.json?q=microsoft"
+  #url="https://api.twitter.com/1.1/search/tweets.json?q=Hillary%20Clinton"
 
   parameters = []
   response = twitterreq(url, "GET", parameters)
